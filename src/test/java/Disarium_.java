@@ -23,5 +23,11 @@ public class Disarium_ {
         assertEquals(Disarium.disarium(89),"Disarium");
     }
 
+    @Test
+    public void if_number_is_any_number_decimal(){
+        assertEquals(Disarium.disarium(349),"Not disarium");
+        assertEquals(Disarium.disarium(175),"Disarium");
+    }
+
 
 }
